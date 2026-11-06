@@ -81,23 +81,24 @@ Business Recommendations
 
 Project Structure
 
-Bike_Sharing_Analysis/
-│
-├── data/
-│   ├── day.csv
-│   └── hour.csv
-│
-├── notebooks/
-│   └── bike_sharing_numpy.ipynb
-│
-├── outputs/
-│   ├── seasonal_demand.png
-│   ├── hourly_demand.png
-│   ├── customer_segments.png
-│   ├── correlation_heatmap.png
-│   └── analysis_results.txt
-│
-└── README.md
+Bike_Sharing_Analysis/                                                                                                                                             
+│                                                                                                                                                                  
+├── data/                                                                                                                                                          
+│   ├── day.csv                                                                                                                                                    
+│   └── hour.csv                                                                                                                                                   
+│                                                                                                                                                                  
+├── notebooks/                                                                                                                                                     
+│   └── bike_sharing_numpy.ipynb                                                                                                                                   
+│                                                                                                                                                                  
+├── outputs/                                                                                                                                                      
+│   ├── seasonal_demand.png                                                                                                                                        
+│   ├── hourly_demand.png                                                                                                                                          
+│   ├── customer_segments.png                                                                                                                                      
+│   ├── correlation_heatmap.png                                                                                                                                    
+│   └── analysis_results.txt                                                                                                                                       
+│                                                                                                                                                                  
+└── README.md                                                                                                                                                      
+
 
 How to Run
 

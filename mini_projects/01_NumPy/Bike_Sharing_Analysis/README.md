@@ -121,3 +121,14 @@ Future Improvements
 Conclusion
 
 This project demonstrates practical applications of NumPy and Python in real-world data analysis. It transforms raw bike-sharing data into statistical findings, visual insights and actionable business recommendations.
+
+## Author
+
+**ASWIN KUMAR V**
+
+B.Tech – Artificial Intelligence and Data Science
+
+This project was independently developed as part
+of my practical learning in Python, NumPy and Data Analytics.
+
+GitHub: https://github.com/aswinkumarv23451-cpu

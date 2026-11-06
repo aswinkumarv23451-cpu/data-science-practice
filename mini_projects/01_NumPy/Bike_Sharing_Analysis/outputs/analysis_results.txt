@@ -1,0 +1,170 @@
+BIKE SHARING DEMAND ANALYSIS
+
+Business Analysis Report
+
+Author: ASWIN KUMAR V
+Technologies: Python, NumPy, Matplotlib
+Dataset: UCI Bike Sharing Dataset (2011–2012)
+
+---
+
+1. Project Overview
+
+This project analyses real-world bike-sharing data to understand rental demand patterns, customer behaviour, seasonal variations, hourly trends and relationships between weather conditions and rental activity.
+
+The analysis was performed using Python and NumPy.
+
+2. Dataset Information
+
+- Daily records : 731
+- Hourly records: 17,379
+- Period        : 2011–2012
+- Total rentals : 3,292,679
+
+3. Daily Rental Demand Analysis
+
+Daily rental demand was classified into three categories using custom thresholds.
+
+Demand Category     | Number of Days| Percentage
+Low (< 3,000)       |      172      | 23.53%
+Medium (3,000–5,000)|      273      | 37.35%
+High (> 5,000)      |      286      | 39.12%
+
+Insight: High-demand days represented the largest category in the dataset.
+
+4. Seasonal Demand Analysis
+
+Average daily rentals by season:
+
+Season| Average Rentals
+Spring| 2,604.13
+Summer| 4,992.33
+Fall  | 5,644.30
+Winter| 4,728.16
+
+Insight: Fall recorded the highest average daily rental demand, while spring recorded the lowest.
+
+5. Weather Analysis
+
+Weather Condition Code| Days| Average Rentals
+                     1|  463| 4,876.79
+                     2|  247| 4,035.86
+                     3|   21| 1,803.29
+                     4|    0| No records
+
+Insight: Average rental demand was lower under more adverse recorded weather conditions.
+
+6. Working Day Analysis
+
+Measure         | Non-working Days| Working Days
+Number of Days  |       231       | 500
+Total Rentals   |    1,000,269    | 2,292,410
+Average Rentals |    4,330.17     | 4,584.82
+Median Rentals  |      4,459      | 4,582
+Maximum Rentals |      8,714      | 8,362
+
+Insight: Working days had approximately 5.88% higher average rentals than non-working days.
+
+7. Customer Segment Analysis
+
+Measure               | Casual Customers| Registered Customers
+Total Rentals         |      620,017    | 2,672,662
+Average Daily Rentals |       848.18    | 3,656.17
+Maximum Daily Rentals |       3,410     | 6,946
+Share of Total Rentals|       18.83%    | 81.17%
+
+Insight: Registered customers accounted for the majority of bike rentals.
+
+8. Hourly Demand Analysis
+
+- Total hourly records: 17,379
+- Unique hours: 24
+- Total rentals: 3,292,679
+- Highest average demand: 5 PM (461.45 rentals)
+- Lowest average demand: 4 AM (6.35 rentals)
+
+Time Period Comparison
+
+Period              | Average Rentals| Total Rentals
+Early Morning (0–5) |       24.91    | 106,509
+Morning (6–11)      |      208.10    | 907,319
+Afternoon (12–16)   |      262.24    | 955,882
+Evening (17–23)     |      259.51    | 1,322,969
+
+Insight: The afternoon had the highest average hourly demand among the four periods. Evening recorded the highest total rentals.
+
+9. Temperature Analysis
+
+Temperature values in the dataset are normalized.
+
+Measure| Value
+Minimum| 0.0591304
+Maximum| 0.861667
+Mean   | 0.4538479
+Median | 0.498333
+
+Insight: Temperature was further examined using four approximately equal-sized groups based on sorted observations.
+
+10. Windspeed Analysis
+
+Windspeed values are normalized.
+
+Measure           | Value
+Minimum           | 0.0223917
+Maximum           | 0.507463
+Mean              | 0.1904862
+Median            | 0.180975
+Standard Deviation| 0.0774448
+
+11. Correlation Analysis
+
+Weather Variables and Total Rentals
+
+Variable    | Correlation with Rentals
+Temperature | 0.627
+Humidity    | -0.101
+Windspeed   | -0.235
+
+Insight: Temperature had the strongest positive linear correlation with rental demand among the three weather variables.
+
+Humidity and windspeed showed weak negative correlations.
+
+Customer Segments and Total Rentals
+
+Variable    | Casual| Registered| Rentals
+Casual      | 1.000 |    0.395  | 0.673
+Registered  | 0.395 |    1.000  | 0.946
+Rentals     | 0.673 |    0.946  | 1.000
+
+Insight: Registered rentals showed a strong correlation with total rentals. This relationship is expected because total rentals are the sum of casual and registered rentals.
+
+12. Top Five Highest-Demand Days
+
+Date      | Total Rentals
+2012-09-15| 8,714
+2012-09-29| 8,555
+2012-09-22| 8,395
+2012-03-23| 8,362
+2012-05-19| 8,294
+
+13. Business Recommendations
+
+1. Peak-hour planning: Improve bike availability during high-demand hours, especially around 5 PM.
+2. Seasonal planning: Prepare additional operational capacity during fall.
+3. Customer engagement: Introduce targeted offers to increase casual customer participation.
+4. Weather-aware operations: Consider weather conditions when planning fleet availability.
+5. Customer retention: Focus on maintaining the registered customer base.
+
+14. Conclusion
+
+The analysis identified important patterns in bike-sharing demand across seasons, hours, customer segments, working days and weather conditions.
+
+NumPy was used for numerical processing, statistical calculations, grouping, sorting and correlation analysis. Matplotlib was used to create visualizations that communicate the findings.
+
+This project demonstrates practical application of Python and NumPy to real-world data analysis and business insight generation.
+
+---
+
+End of Report
+
+Author: ASWIN KUMAR V

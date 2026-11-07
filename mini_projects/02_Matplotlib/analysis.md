@@ -8,11 +8,11 @@
 
 ## 1. Executive Summary
 
-This project presents an exploratory data analysis of the **World Happiness Report 2024** dataset.
+- This project presents an exploratory data analysis of the **World Happiness Report 2024** dataset.
 
-The objective is to investigate global happiness patterns, compare countries and geographical regions, and examine relationships between happiness and important quality-of-life indicators.
+- The objective is to investigate global happiness patterns, compare countries and geographical regions, and examine relationships between happiness and important quality-of-life indicators.
 
-Using Python, NumPy, and Matplotlib, this project applies statistical techniques and data visualization to transform raw data into meaningful insights.
+- Using Python, NumPy, and Matplotlib, this project applies statistical techniques and data visualization to transform raw data into meaningful insights.
 
 ### Project Highlights
 

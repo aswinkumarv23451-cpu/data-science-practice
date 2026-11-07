@@ -1,4 +1,4 @@
-# 🌍 World Happiness & Quality of Life Analysis (2024)
+<h1 align="center">🌍 World Happiness & Quality of Life Analysis (2024)</h1>
 
 ## 📌 Project Overview
 

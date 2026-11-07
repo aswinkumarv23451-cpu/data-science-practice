@@ -154,23 +154,28 @@ Bike_Sharing_Analysis/
 │
 ├── analysis.md
 └── README.md
+
 ```
 
 ## 11. How to Run
 
 ### Step 1: Clone the Repository
 
-```bash git clone https://github.com/aswinkumarv23451-cpu/data-science-practice.git ```
+```bash 
+         git clone https://github.com/aswinkumarv23451-cpu/data-science-practice.git
+ ```
 
 ### Step 2: Install Required Libraries
 
-```bash pip install numpy matplotlib notebook ```
+```bash 
+          pip install numpy matplotlib notebook
+ ```
 
 ### Step 3: Open the Project
 
 Navigate to the `Bike_Sharing_Analysis` folder and open:
 
-`notebooks/bike_sharing_numpy.ipynb`
+        notebooks/bike_sharing_numpy.ipynb
 
 ### Step 4: Run the Notebook
 
@@ -188,13 +193,13 @@ Select the appropriate Python kernel and execute the notebook cells sequentially
 
 ## 13. Conclusion
 
-This project demonstrates the practical application of Python and NumPy in real-world data analytics.
+- This project demonstrates the practical application of Python and NumPy in real-world data analytics.
 
-By analyzing historical bike-sharing data, the project identifies meaningful patterns in seasonal demand, hourly rental activity, customer segments, working days and weather conditions.
+- By analyzing historical bike-sharing data, the project identifies meaningful patterns in seasonal demand, hourly rental activity, customer segments, working days and weather conditions.
 
-The findings provide useful insights into customer behaviour and operational planning.
+- The findings provide useful insights into customer behaviour and operational planning.
 
-The project strengthened practical skills in numerical computing, statistical analysis, data visualization and data-driven problem-solving.
+- The project strengthened practical skills in numerical computing, statistical analysis, data visualization and data-driven problem-solving.
 
 ## 14. Detailed Analysis Report
 

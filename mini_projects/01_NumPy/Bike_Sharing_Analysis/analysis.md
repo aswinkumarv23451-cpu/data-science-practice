@@ -16,11 +16,11 @@
 
 ## 1. Project Overview
 
-This project analyzes real-world bike-sharing data to understand rental demand patterns, customer behaviour, seasonal variations, hourly trends and relationships between weather conditions and rental activity.
+- This project analyzes real-world bike-sharing data to understand rental demand patterns, customer behaviour, seasonal variations, hourly trends and relationships between weather conditions and rental activity.
 
-The analysis was performed using Python and NumPy, with Matplotlib used to create visual representations of the findings.
+- The analysis was performed using Python and NumPy, with Matplotlib used to create visual representations of the findings.
 
-The objective is to transform historical rental data into meaningful statistical insights and practical business recommendations.
+- The objective is to transform historical rental data into meaningful statistical insights and practical business recommendations.
 
 ## 2. Dataset Information
 
@@ -47,9 +47,9 @@ Daily rental demand was classified into three categories using custom thresholds
 
 ### Key Insight
 
-High-demand days represented the largest category in the dataset, accounting for 39.12% of all recorded days.
+- High-demand days represented the largest category in the dataset, accounting for 39.12% of all recorded days.
 
-This indicates that a considerable proportion of the observation period experienced relatively high bike rental activity.
+- This indicates that a considerable proportion of the observation period experienced relatively high bike rental activity.
 
 ## 4. Seasonal Demand Analysis
 
@@ -87,9 +87,9 @@ Average daily rental demand was examined across different weather condition code
 
 ### Key Insight
 
-Average rental demand was lower under more adverse recorded weather conditions.
+- Average rental demand was lower under more adverse recorded weather conditions.
 
-The results indicate that weather conditions are associated with changes in bike rental activity.
+- The results indicate that weather conditions are associated with changes in bike rental activity.
 
 **Business Interpretation:** Weather information can be considered when planning fleet availability and operational capacity.
 
@@ -107,9 +107,9 @@ Rental activity was compared between working days and non-working days.
 
 ### Key Insight
 
-Working days recorded approximately 5.88% higher average rentals than non-working days.
+- Working days recorded approximately 5.88% higher average rentals than non-working days.
 
-This suggests that routine transportation activities may contribute to bike rental demand during working days.
+- This suggests that routine transportation activities may contribute to bike rental demand during working days.
 
 ## 7. Customer Segment Analysis
 
@@ -188,9 +188,9 @@ Temperature values in the dataset are normalized.
 
 ### Key Insight
 
-Temperature values were further examined using four approximately equal-sized groups based on sorted observations.
+- Temperature values were further examined using four approximately equal-sized groups based on sorted observations.
 
-This grouping approach helps explore how rental activity varies across different temperature ranges.
+- This grouping approach helps explore how rental activity varies across different temperature ranges.
 
 **Note:** Temperature values are normalized and do not represent direct Celsius measurements.
 
@@ -210,9 +210,9 @@ Windspeed values in the dataset are normalized.
 
 ### Key Insight
 
-The statistical results summarize windspeed variation across the dataset.
+- The statistical results summarize windspeed variation across the dataset.
 
-Windspeed was also examined through correlation analysis to understand its relationship with total rental demand.
+- Windspeed was also examined through correlation analysis to understand its relationship with total rental demand.
 
 **Note:** Windspeed values are normalized rather than expressed directly in km/h or m/s.
 
@@ -268,9 +268,9 @@ The five days with the highest total rental demand were identified using numeric
 
 ### Key Insight
 
-September 15, 2012 recorded the highest rental demand, with 8,714 rentals.
+- September 15, 2012 recorded the highest rental demand, with 8,714 rentals.
 
-Identifying peak-demand days helps reveal periods of exceptional rental activity.
+- Identifying peak-demand days helps reveal periods of exceptional rental activity.
 
 ## 13. Business Recommendations
 
@@ -298,15 +298,15 @@ Focus on maintaining the registered customer base through loyalty programs and c
 
 ## 14. Conclusion
 
-The analysis identified important patterns in bike-sharing demand across seasons, hours, customer segments, working days and weather conditions.
+- The analysis identified important patterns in bike-sharing demand across seasons, hours, customer segments, working days and weather conditions.
 
-The results showed that fall recorded the highest average seasonal demand, registered customers contributed the majority of rentals, and 5 PM recorded the highest average hourly demand.
+- The results showed that fall recorded the highest average seasonal demand, registered customers contributed the majority of rentals, and 5 PM recorded the highest average hourly demand.
 
-Temperature demonstrated the strongest positive correlation with rental demand among the three weather variables analyzed.
+- Temperature demonstrated the strongest positive correlation with rental demand among the three weather variables analyzed.
 
-NumPy was used for numerical processing, statistical calculations, grouping, sorting, filtering and correlation analysis. Matplotlib was used to create visualizations that communicate the findings.
+- NumPy was used for numerical processing, statistical calculations, grouping, sorting, filtering and correlation analysis. Matplotlib was used to create visualizations that communicate the findings.
 
-This project demonstrates the practical application of Python and NumPy to real-world data analysis and business insight generation.
+- This project demonstrates the practical application of Python and NumPy to real-world data analysis and business insight generation.
 
 ---
 

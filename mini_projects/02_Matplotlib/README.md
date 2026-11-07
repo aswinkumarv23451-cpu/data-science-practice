@@ -158,6 +158,24 @@ It demonstrates the application of data science techniques to a real-world globa
 
 ---
 
-**Developed as part of my Data Science learning journey.**
+## Detailed Analysis Report
 
-*Turning data into meaningful insights.*
+For the complete analytical report, including statistical tables, detailed interpretations, correlation results and business findings, refer to:
+
+📄 **[View Detailed Analysis Report](./analysis.md)**
+
+---
+
+<p align="center">
+  <strong>End of Report</strong>
+</p>
+
+<p align="center">
+  <em>Turning data into meaningful insights.</em>
+</p>
+
+<p align="center">
+  <strong>Author: ASWIN KUMAR V</strong><br>
+  B.Tech – Artificial Intelligence and Data Science<br>
+  <a href="https://github.com/aswinkumarv23451-cpu">GitHub Profile</a>
+</p>

@@ -1,10 +1,10 @@
-Matplotlib Visualization Practice
+# Matplotlib Visualization Practice
 
-Overview
+## Overview
 
 A hands-on Python visualization practice repository covering essential Matplotlib techniques through practical coding exercises.
 
-Topics Covered
+## Topics Covered
 
 - Line plots
 - Multiple line plots
@@ -19,29 +19,29 @@ Topics Covered
 - Plot customization, annotations and legends
 - Saving high-resolution visualizations
 
-Technologies Used
+## Technologies Used
 
 - Python
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-Project Structure
+## Project Structure
 
-Matplotlib_Visualization/                                                                                                                         
-├── notebooks/                                                                                                                                    
-│   └── matplotlib_visualization.ipynb                                                                                                            
-├── outputs/                                                                                                                                      
-└── README.md                                                                                                                                     
+Matplotlib_Visualization/                                                                                                       
+├── notebooks/                                                                                                             
+│   └── matplotlib_visualization.ipynb                                                                                            
+├──outputs/                                                                                                                               
+└── README.md                                                                                                                            
 
-Outputs
+## Outputs
 
 Visualizations generated during practice are saved in the "outputs/" directory.
 
-Learning Objective
+## Learning Objective
 
 Develop practical data visualization skills and learn to communicate patterns, trends and insights effectively through graphical representations.
 
 ---
 
-Learning by Visualizing. Improving by Building.
+*Learning by Visualizing. Improving by Building.*

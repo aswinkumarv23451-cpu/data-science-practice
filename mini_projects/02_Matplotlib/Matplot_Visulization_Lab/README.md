@@ -44,4 +44,16 @@ Develop practical data visualization skills and learn to communicate patterns, t
 
 ---
 
-*Learning by Visualizing. Improving by Building.*
+<p align="center">
+  <strong>End of Report</strong>
+</p>
+
+<p align="center">
+  <em>Turning data into meaningful insights.</em>
+</p>
+
+<p align="center">
+  <strong>Author: ASWIN KUMAR V</strong><br>
+  B.Tech – Artificial Intelligence and Data Science<br>
+  <a href="https://github.com/aswinkumarv23451-cpu">GitHub Profile</a>
+</p>

@@ -64,8 +64,8 @@
 
 ## Technical Skills
 
-```
-Area                | Practical Experience
+|Area                | Practical Experience|
+|---|---|
 Programming         | Python
 Numerical Computing | NumPy
 Data Analysis       | Pandas
@@ -73,7 +73,7 @@ Visualization       | Matplotlib, Seaborn
 Statistical Analysis| Descriptive statistics, correlation, distributions
 Development         | Jupyter Notebook
 Version Control     | Git, GitHub
-```
+
 
 ## About
 
